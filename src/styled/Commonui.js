@@ -21,3 +21,10 @@ export const Bbtn = styled.button`
       text-align: center;  
 `
 
+export const BgBanner = (props) => {
+    return (
+        <div className={props.className} >
+            {props.children}
+        </div>
+    )
+}
